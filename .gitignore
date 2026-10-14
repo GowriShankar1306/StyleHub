@@ -1,0 +1,30 @@
+﻿# Virtual environments
+stylehub_venv/
+backend/stylehub_venv/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Databases
+*.db
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/

@@ -1,0 +1,27 @@
+
+# Virtual environments
+stylehub_venv/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
